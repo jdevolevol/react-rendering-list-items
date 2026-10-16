@@ -1,11 +1,15 @@
+/** @jsxImportSource @emotion/react */
 import "./App.css";
+import { css } from '@emotion/react';
+import ListMovie from "./components/list-movies";
+
 
 function App() {
+  
   return (
     <div className="App">
-      <section className="movie-list-section">
-        {/* Render Movie Lists Here */}
-      </section>
+      <h1 css={css`text-align: center; font-size: 40px; margin:50px; font-family: Kanit;`}>Movie List Section</h1>
+        <ListMovie />
     </div>
   );
 }

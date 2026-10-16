@@ -1,0 +1,51 @@
+ *{  margin: 0;
+        padding: 0;
+        font-family: "Kanit";
+ }
+
+
+ .movie-list-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+} 
+
+.content{display: flex;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px 0px #917C7C40;
+        padding: 24px;
+        gap: 24px;
+        width: 400px;
+        height: 200px;
+        color: #111;}
+
+.listBox{list-style-type: none;
+        padding: 0;
+        margin-bottom: 500px ;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 16px;
+}
+
+
+.imgMovie{width: 120px;
+        height: 120px;
+        border-radius: 12px;
+        object-fit: cover;
+}
+
+.list-genre{
+        & .text-genres{
+                color: black;
+                border-radius: 10px;
+                background-color: #EAAC99;
+                box-shadow: none;
+                font-size: 16px;
+                padding: 3px 2px;
+                margin-right: 5px;
+                
+        }
+}
